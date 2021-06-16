@@ -124,10 +124,14 @@ function Airplane(name) {
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. 
-    2. 
-    3. 
-    4. 
+
+    1. Window Binding = when in the global scope, the value of 'this' will be the window/console object. This happens when we don't give the 'this' keyword any context.
+
+    2. Implicit Binding = Whenever a precoding dot calls a function, the object before the dot is this. It is one of the most commonly used applications. It applies to objects with methods.
+
+    3. Explicit Binding = Whenever we use call or apply or bind method.
+
+    4. New Binding = Whenever a function is invoked as a constructor function 'this' points to the newly created object. A constructor function is a function that returns an object. It's an object creator.
   */
   
   
